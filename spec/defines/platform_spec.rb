@@ -9,7 +9,7 @@ describe 'android::platform' do
 
   let(:title) { 'android-17' }
 
-  it do 
+  it do
     should contain_android__definition(title).with(
       :ensure    => 'present',
       :dest_path => 'platforms/android-17'

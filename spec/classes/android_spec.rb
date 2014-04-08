@@ -7,7 +7,7 @@ describe 'android' do
     }
   end
 
-  it do 
+  it do
     should include_class('android::config')
 
     should contain_file("/opt/boxen/env.d/android.sh").with({
