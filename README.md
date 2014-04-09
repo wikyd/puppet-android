@@ -41,7 +41,7 @@ android::version { '17': }
 
 # install 18 version for all
 android::version { '18':
-  options => ['platform', 'add_on', 'system_image', 'sample'] 
+  options => ['platform', 'add_on', 'system_image', 'sample']
 }
 ```
 
