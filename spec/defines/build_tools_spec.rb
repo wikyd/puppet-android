@@ -10,7 +10,7 @@ describe 'android::build_tools' do
   let(:title) { '18.1.1' }
 
   it do
-    should contain_android__definition(title).with(
+    should contain_android__definition("build-tools-18.1.1").with(
       :ensure    => 'present',
       :dest_path => 'build-tools/18.1.1'
     )
