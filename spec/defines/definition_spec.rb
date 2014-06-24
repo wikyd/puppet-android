@@ -42,7 +42,7 @@ describe 'android::definition' do
         should include_class('android::sdk')
 
         should contain_exec('android-update-android-17').with({
-          :command  => "/opt/boxen/homebrew/opt/android-sdk/bin/android update sdk --all --no-ui --filter android-17",
+          :command  => "(while [ 1 ]; do sleep 1; echo y; done)|/opt/boxen/homebrew/opt/android-sdk/bin/android update sdk --all --no-ui --filter android-17",
           :provider => 'shell',
           :timeout  => 0,
           :creates  => '/opt/boxen/homebrew/opt/android-sdk/platforms/android-17',
