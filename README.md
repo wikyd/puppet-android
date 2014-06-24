@@ -29,9 +29,9 @@ ensure a `build-tools` is installed
 android::build_tools { '18.1.1': }
 ```
 
-The `3`, `4`, `7`, `8`, `10`, `11`, `12`, `13`, `14`, `15`, `16`, `17` and `18` version is also available:
+The `3`, `4`, `7`, `8`, `10`, `11`, `12`, `13`, `14`, `15`, `16`, `17`, `18` and `19` version is also available:
 ```puppet
-include android::18
+include android::19
 ```
 
 ensure a `version` is installed for a certain android version
