@@ -2,9 +2,9 @@ require 'formula'
 
 class AndroidSdk < Formula
   homepage 'http://developer.android.com/index.html'
-  url 'http://dl.google.com/android/android-sdk_r22.6.2-macosx.zip'
-  version '22.6.2-boxen1'
-  sha1 '6abb9cf56529a40ac29fa70a95f5741fa1ae0f86'
+  url 'http://dl.google.com/android/android-sdk_r23-macosx.zip'
+  version '23-boxen1'
+  sha1 '7119841e5fcadd8ef2b75c1fe419c4cbc9a97336'
 
   resource 'completion' do
     url 'https://raw.github.com/CyanogenMod/android_sdk/3bf0a01ef66a9b99149ba3faaf34a1362581dd01/bash_completion/adb.bash'
